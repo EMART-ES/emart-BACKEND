@@ -23,7 +23,7 @@ public class SwaggerConfig {
                         .contact(new Contact().name("Artur Figueiredo")
                                 .email("emart-es@outlook.com")))
                 .externalDocs(new ExternalDocumentation().description("Github")
-                        .url("https://github.com/EMART-ES"))
+                        .url("https://www.github.com/EMART-ES"))
                 .externalDocs(new ExternalDocumentation().description("Instagram")
                         .url("https://www.instagram.com/emart_roupasoficial/"));
 
