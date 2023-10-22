@@ -1,5 +1,6 @@
 package com.example.emart.models;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -18,6 +19,8 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+    @Schema(example = "example@email.com")
     @Email
     @NotBlank(message = "emailUsuario não pode ser nullo")
     @Size(max = 255, message = "emailUsuario não pode ultrapassar 255 caracteres")

@@ -20,10 +20,13 @@ public class SwaggerConfig {
                         .description("Back-end de um sistema de E-commerce, um projeto pessoal.")
                         .version("v0.0.1")
                         .license(new License().name("Emart"))
-                        .contact(new Contact().name("Artur Figueiredo ")
+                        .contact(new Contact().name("Artur Figueiredo")
                                 .email("emart-es@outlook.com")))
                 .externalDocs(new ExternalDocumentation().description("Github")
-                        .url("https://github.com/matheuxsx3"));
+                        .url("https://github.com/EMART-ES"))
+                .externalDocs(new ExternalDocumentation().description("Instagram")
+                        .url("https://www.instagram.com/emart_roupasoficial/"));
+
     }
 
     @Bean
