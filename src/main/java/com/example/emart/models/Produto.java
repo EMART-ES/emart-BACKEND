@@ -23,6 +23,7 @@ public class Produto {
     private int quantidade;
     @NotNull(message = "precoProduto não pode ser nullo")
     private BigDecimal preco;
+    private String foto;
 
     @NotNull
     @ManyToOne
